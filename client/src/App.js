@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 function App() {
   const [count, setCount] = useState(0);
-
+// adding comment as a test 
   useEffect(() => {
     fetch("/hello")
       .then((r) => r.json())
